@@ -1,0 +1,26 @@
+---
+title: "Zhang Jiaxing"
+subtitle: "PhD Student in Economics | University of Economics"
+image: /static/img/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:zhangjiaxing@example.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/zhangjx0101
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/
+---
+
+I am a PhD student in Economics at [University of Economics](). My research focuses on applied microeconomics, with particular interests in [research field 1], [research field 2], and [research field 3].
+
+## Education
+
+{{< fa graduation-cap >}} **Ph.D. in Economics** | University of Economics | Expected [Year]
+
+{{< fa graduation-cap >}} **B.A. in Economics** | [University Name] | [Year]

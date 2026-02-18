@@ -1,0 +1,13 @@
+---
+title: "演讲"
+description: "学术报告与研讨会记录"
+title-block-banner: "#fff"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: 年份
+date-format: "YYYY年M月D日"
+lang: zh-Hans
+---
+
+*即将更新，敬请期待。*

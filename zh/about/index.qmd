@@ -1,0 +1,47 @@
+---
+pagetitle: "关于 – Zhang Jiaxing"
+listing:
+  - id: blog
+    contents: ../../blog/*/**/index.qmd
+    sort: "date desc"
+    type: default
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 1
+    template: ../../static/html/about/blog.ejs
+page-layout: full
+title-block-style: none
+lang: zh-Hans
+---
+
+::: {.about-banner}
+![](/static/img/banner.jpg)
+:::
+
+我是 [University of Economics]() 的经济学博士生。
+
+我的研究兴趣包括：
+
+- [研究方向1]
+- [研究方向2]
+- [研究方向3]
+
+{{< fa graduation-cap >}} 经济学博士  &#8729; University of Economics  &#8729;  预计[年份]毕业
+
+{{< fa graduation-cap >}} 经济学学士  &#8729; [大学名称]  &#8729;  [年份]
+
+<br>
+
+## 研究
+
+请访问 [研究页面](../research/) 查看工作论文与已发表论文。
+
+## 博客
+
+:::{#blog}
+:::
+
+::: {style="text-align: right"}
+[查看全部 →](../blog/)
+:::

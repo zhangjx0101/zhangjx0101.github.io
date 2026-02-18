@@ -1,0 +1,27 @@
+---
+title: "Zhang Jiaxing"
+subtitle: "经济学博士生 | University of Economics"
+image: /static/img/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      text: 邮箱
+      href: mailto:zhangjiaxing@example.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/zhangjx0101
+    - icon: mortarboard-fill
+      text: 谷歌学术
+      href: https://scholar.google.com/
+lang: zh-Hans
+---
+
+我是 [University of Economics]() 的经济学博士生。研究方向为应用微观经济学，主要关注 [研究方向1]、[研究方向2] 和 [研究方向3]。
+
+## 教育背景
+
+{{< fa graduation-cap >}} **经济学博士** | University of Economics | 预计[年份]毕业
+
+{{< fa graduation-cap >}} **经济学学士** | [大学名称] | [年份]

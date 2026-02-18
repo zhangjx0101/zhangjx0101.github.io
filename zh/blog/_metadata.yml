@@ -1,0 +1,10 @@
+# Enable banner style title blocks
+title-block-banner: true
+
+execute:
+  warning: false
+  message: false
+
+format:
+  html:
+    code-tools: true

@@ -1,0 +1,53 @@
+---
+title: "[Paper Title Placeholder 1]"
+subtitle: "[Subtitle Placeholder]"
+date: 2025-03-15
+image: /static/img/research/placeholder.svg
+authors:
+  - name: Zhang Jiaxing
+    url: "{{< var website-url >}}"
+    affiliation: University of Economics
+  - name: "[Coauthor A]"
+    url: https://example.com
+  - name: "[Coauthor B]"
+    url: https://example.com
+categories:
+  - "[Research Topic 1]"
+  - Trade
+  - Labor
+status: published
+research-abstract: >-
+  [This is a placeholder abstract. Replace with your actual research abstract
+  when ready. The abstract should summarize the research question, methodology,
+  and key findings of your paper.]
+pub-info:
+  links:
+    - name: PDF
+      url: "#"
+      icon: fa-solid fa-file-pdf
+    - name: DOI
+      url: "#"
+      icon: fa-solid fa-link
+    - name: Replication
+      url: "#"
+      icon: fa-solid fa-database
+pub-status:
+  status: Published
+  class: published
+  icon: fa-solid fa-check
+---
+
+## Abstract
+
+{{< meta research-abstract >}}
+
+## BibTeX citation
+
+```bibtex
+@article{zhang2025placeholder1,
+  title = {[Paper Title Placeholder 1]},
+  author = {Zhang, Jiaxing and [Coauthor A] and [Coauthor B]},
+  journal = {[Journal Name]},
+  year = {2025}
+}
+```

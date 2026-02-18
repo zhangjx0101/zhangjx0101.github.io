@@ -1,0 +1,31 @@
+---
+title: "[Paper Title Placeholder 4]"
+date: 2024-06-01
+image: /static/img/research/placeholder.svg
+authors:
+  - name: Zhang Jiaxing
+    url: "{{< var website-url >}}"
+    affiliation: University of Economics
+  - name: "[Coauthor E]"
+    url: https://example.com
+  - name: "[Coauthor F]"
+    url: https://example.com
+categories:
+  - "[Research Topic 2]"
+  - Education
+  - Inequality
+status: work-in-progress
+research-abstract: >-
+  [This is a placeholder abstract. Replace with your actual research abstract
+  when ready. The abstract should summarize the research question, methodology,
+  and key findings of your paper.]
+pub-status:
+  status: In progress
+  class: wip
+  icon: fa-solid fa-seedling
+hide-detail: true
+---
+
+## Abstract
+
+{{< meta research-abstract >}}

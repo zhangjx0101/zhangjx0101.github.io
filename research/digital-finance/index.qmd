@@ -1,0 +1,48 @@
+---
+title: "[Paper Title Placeholder 3]"
+subtitle: "[Subtitle Placeholder]"
+date: 2024-09-01
+image: /static/img/research/placeholder.svg
+authors:
+  - name: Zhang Jiaxing
+    url: "{{< var website-url >}}"
+    affiliation: University of Economics
+  - name: "[Coauthor D]"
+    url: https://example.com
+categories:
+  - "[Research Topic 2]"
+  - FinTech
+  - Development
+status: working-papers
+research-abstract: >-
+  [This is a placeholder abstract. Replace with your actual research abstract
+  when ready. The abstract should summarize the research question, methodology,
+  and key findings of your paper.]
+pub-info:
+  links:
+    - name: PDF
+      url: "#"
+      icon: fa-solid fa-file-pdf
+    - name: Slides
+      url: "#"
+      icon: fa-solid fa-file-powerpoint
+pub-status:
+  status: Writing
+  class: wp
+  icon: fa-solid fa-pencil
+---
+
+## Abstract
+
+{{< meta research-abstract >}}
+
+## BibTeX citation
+
+```bibtex
+@unpublished{zhang2024placeholder3,
+  title = {[Paper Title Placeholder 3]},
+  author = {Zhang, Jiaxing and [Coauthor D]},
+  year = {2024},
+  note = {Working paper}
+}
+```

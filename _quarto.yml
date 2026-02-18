@@ -1,0 +1,63 @@
+project:
+  type: website
+  resources:
+    - static/img/**
+  preview:
+    port: 5556
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: auto
+  warning: false
+
+website:
+  title: "Zhang Jiaxing"
+  favicon: static/img/favicon.drawio.svg
+  site-url: https://zhangjx.com
+  repo-url: https://github.com/zhangjx0101/zhangjx0101.github.io
+  open-graph: true
+  navbar:
+    right:
+      - text: About
+        file: about/index.qmd
+      - text: Research
+        file: research/index.qmd
+      - text: CV
+        href: "#"
+      - text: Blog
+        file: blog/index.qmd
+      - text: Software
+        file: software/index.qmd
+      - text: Talks
+        file: talks/index.qmd
+      - text: Teaching
+        file: teaching/index.qmd
+      - icon: globe
+        text: "English"
+        id: lang-switcher
+        menu:
+          - text: "English"
+            href: /
+          - text: "中文 (简体)"
+            href: /zh/
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa copyright >}} 2025 Zhang Jiaxing</span>
+    center: |
+      <span class="faux-block">[{{< fa brands github >}}]({{< var github-url >}})</span>
+    right: |
+      <span class="faux-block">Made with [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">View the source at [{{< fa brands github >}} GitHub]({{< var repo-url >}})</span>
+
+format:
+  html:
+    theme:
+      - static/html/custom.scss
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-regular.css">
+    include-after-body: static/html/lang-switch.html
+
+bibliography: references.bib

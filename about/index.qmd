@@ -1,0 +1,46 @@
+---
+pagetitle: "About – Zhang Jiaxing"
+listing:
+  - id: blog
+    contents: ../blog/*/**/index.qmd
+    sort: "date desc"
+    type: default
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 1
+    template: ../static/html/about/blog.ejs
+page-layout: full
+title-block-style: none
+---
+
+::: {.about-banner}
+![](/static/img/banner.jpg)
+:::
+
+I am a PhD student in Economics at [University of Economics]().
+
+My research interests include:
+
+- [Research interest 1]
+- [Research interest 2]
+- [Research interest 3]
+
+{{< fa graduation-cap >}} Ph.D. in Economics  &#8729; University of Economics  &#8729;  Expected [Year]
+
+{{< fa graduation-cap >}} B.A. in Economics  &#8729; [University Name]  &#8729;  [Year]
+
+<br>
+
+## RESEARCH
+
+See my [Research](../research) page for working papers and publications.
+
+## BLOG
+
+:::{#blog}
+:::
+
+::: {style="text-align: right"}
+[See All →](../blog)
+:::

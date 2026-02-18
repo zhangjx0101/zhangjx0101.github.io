@@ -1,0 +1,23 @@
+---
+title: "博客"
+description: "经济学研究笔记与技术分享"
+author: ""
+listing:
+  - id: posts_2026
+    contents: "../../blog/2026/**/index.qmd"
+    sort: "date desc"
+    template: ../../static/html/list-blog.ejs
+    categories: true
+page-layout: full
+toc-title: 年份
+toc-location: right
+date-format: "YYYY年M月D日"
+code-tools: false
+comments: false
+lang: zh-Hans
+---
+
+## 2026
+
+:::{#posts_2026}
+:::

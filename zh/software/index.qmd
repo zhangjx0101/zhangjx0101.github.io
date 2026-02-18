@@ -1,0 +1,12 @@
+---
+title: "软件"
+description: "开发的软件包与工具"
+title-block-banner: "#fff"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: 语言
+lang: zh-Hans
+---
+
+*即将更新，敬请期待。*

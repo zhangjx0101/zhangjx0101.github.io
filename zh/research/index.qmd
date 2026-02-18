@@ -1,0 +1,20 @@
+---
+title: 研究
+description: "我的学术研究"
+home: true
+listing:
+  - id: projects
+    contents: ../../research/*/index.qmd
+    sort:
+      - "status"
+      - "date desc"
+    template: ../../static/html/list-research-zh.ejs
+    categories: true
+title-block-banner: "#fff"
+page-layout: full
+toc: false
+lang: zh-Hans
+---
+
+:::{#projects}
+:::

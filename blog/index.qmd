@@ -1,0 +1,22 @@
+---
+title: "Blog"
+description: "Notes and tips for economic research"
+author: ""
+listing:
+  - id: posts_2026
+    contents: "2026/**/index.qmd"
+    sort: "date desc"
+    template: ../static/html/list-blog.ejs
+    categories: true
+page-layout: full
+toc-title: Year
+toc-location: right
+date-format: "MMMM D, YYYY"
+code-tools: false
+comments: false
+---
+
+## 2026
+
+:::{#posts_2026}
+:::

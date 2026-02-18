@@ -1,0 +1,19 @@
+---
+title: Research
+description: "My ongoing research"
+home: true
+listing:
+  - id: projects
+    contents: "/*/index.qmd"
+    sort:
+      - "status"
+      - "date desc"
+    template: ../static/html/list-research.ejs
+    categories: true
+title-block-banner: "#fff"
+page-layout: full
+toc: false
+---
+
+:::{#projects}
+:::

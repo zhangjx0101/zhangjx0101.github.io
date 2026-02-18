@@ -1,0 +1,130 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var path = window.location.pathname;
+  var isZh = path.startsWith('/zh');
+
+  // Navbar text mapping: English -> Chinese
+  var navTextMap = {
+    'About': '关于',
+    'Research': '研究',
+    'CV': '简历',
+    'Blog': '博客',
+    'Software': '软件',
+    'Talks': '演讲',
+    'Teaching': '教学'
+  };
+
+  // Category name mapping for sidebar
+  var catTextMap = {
+    'All': '全部',
+    '[Research Topic 1]': '[研究主题1]',
+    '[Research Topic 2]': '[研究主题2]',
+    'Trade': '贸易',
+    'Labor': '劳动经济学',
+    'Housing': '住房',
+    'Consumption': '消费',
+    'FinTech': '金融科技',
+    'Development': '发展经济学',
+    'Education': '教育',
+    'Inequality': '不平等',
+    'Categories': '分类'
+  };
+
+  // Find the language dropdown toggle and menu items
+  var langDropdown = null;
+  var dropdownItems = [];
+  document.querySelectorAll('.navbar-nav .nav-item.dropdown').forEach(function(dd) {
+    var toggle = dd.querySelector('.dropdown-toggle .menu-text');
+    if (toggle && toggle.textContent.trim() === 'English') {
+      langDropdown = dd;
+      dropdownItems = dd.querySelectorAll('.dropdown-item');
+    }
+  });
+
+  // Find regular nav items (excluding dropdown items)
+  var navItems = document.querySelectorAll('.navbar-nav > .nav-item > .nav-link:not(.dropdown-toggle)');
+
+  if (isZh) {
+    // Rewrite site title link to /zh/
+    var brand = document.querySelector('.navbar-brand');
+    if (brand) brand.href = '/zh/';
+
+    // Rewrite nav links: href to /zh/ and text to Chinese
+    navItems.forEach(function(item) {
+      var menuText = item.querySelector('.menu-text');
+      if (menuText) {
+        var enLabel = menuText.textContent.trim();
+        if (navTextMap[enLabel]) {
+          menuText.textContent = navTextMap[enLabel];
+        }
+      }
+
+      try {
+        var url = new URL(item.href, window.location.origin);
+        if (url.pathname && !url.pathname.startsWith('/zh') && url.hash !== '#') {
+          item.href = '/zh' + url.pathname;
+        }
+      } catch(e) {}
+    });
+
+    // Update language dropdown: show "中文 (简体)" as current
+    if (langDropdown) {
+      var toggleText = langDropdown.querySelector('.dropdown-toggle .menu-text');
+      if (toggleText) toggleText.textContent = '中文 (简体)';
+
+      // Update dropdown links with correct paths
+      var enPath = path.replace(/^\/zh\/?/, '/');
+      if (!enPath || enPath === '') enPath = '/';
+      dropdownItems.forEach(function(item) {
+        var text = item.textContent.trim();
+        if (text === 'English') {
+          item.href = enPath;
+        } else if (text === '中文 (简体)') {
+          item.href = path;
+          item.classList.add('active');
+        }
+      });
+    }
+
+    // Translate sidebar category title and labels
+    var catTitle = document.querySelector('.quarto-listing-category-title');
+    if (catTitle && catTextMap[catTitle.textContent.trim()]) {
+      catTitle.textContent = catTextMap[catTitle.textContent.trim()];
+    }
+
+    document.querySelectorAll('.quarto-listing-category .category').forEach(function(el) {
+      var countSpan = el.querySelector('.quarto-category-count');
+      var countText = countSpan ? countSpan.textContent : '';
+      var rawText = el.textContent.replace(countText, '').trim();
+      if (catTextMap[rawText]) {
+        el.textContent = '';
+        el.appendChild(document.createTextNode(catTextMap[rawText] + ' '));
+        if (countSpan) el.appendChild(countSpan);
+      }
+    });
+
+    // Translate footer
+    var footerRight = document.querySelector('.nav-footer-right');
+    if (footerRight) {
+      footerRight.innerHTML = footerRight.innerHTML
+        .replace('Made with', '基于')
+        .replace('</a></span>', '</a> 构建</span>')
+        .replace('View the source at', '在')
+        .replace('GitHub</a></span>', 'GitHub</a> 查看源码</span>');
+    }
+  } else {
+    // English page: update dropdown links with correct paths
+    if (langDropdown) {
+      dropdownItems.forEach(function(item) {
+        var text = item.textContent.trim();
+        if (text === 'English') {
+          item.href = path;
+          item.classList.add('active');
+        } else if (text === '中文 (简体)') {
+          item.href = '/zh' + (path === '/' ? '/' : path);
+        }
+      });
+    }
+  }
+});
+</script>

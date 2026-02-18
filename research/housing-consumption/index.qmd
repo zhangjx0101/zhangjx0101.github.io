@@ -1,0 +1,51 @@
+---
+title: "[Paper Title Placeholder 2]"
+subtitle: "[Subtitle Placeholder]"
+date: 2025-01-10
+image: /static/img/research/placeholder.svg
+authors:
+  - name: Zhang Jiaxing
+    url: "{{< var website-url >}}"
+    affiliation: University of Economics
+  - name: "[Coauthor C]"
+    url: https://example.com
+categories:
+  - "[Research Topic 1]"
+  - Housing
+  - Consumption
+status: working-papers
+research-abstract: >-
+  [This is a placeholder abstract. Replace with your actual research abstract
+  when ready. The abstract should summarize the research question, methodology,
+  and key findings of your paper.]
+pub-info:
+  links:
+    - name: PDF
+      url: "#"
+      icon: fa-solid fa-file-pdf
+    - name: SSRN
+      url: "#"
+      icon: fa-solid fa-file-lines
+    - name: Slides
+      url: "#"
+      icon: fa-solid fa-file-powerpoint
+pub-status:
+  status: R&R
+  class: wp
+  icon: fa-solid fa-glasses
+---
+
+## Abstract
+
+{{< meta research-abstract >}}
+
+## BibTeX citation
+
+```bibtex
+@unpublished{zhang2025placeholder2,
+  title = {[Paper Title Placeholder 2]},
+  author = {Zhang, Jiaxing and [Coauthor C]},
+  year = {2025},
+  note = {Working paper}
+}
+```

@@ -1,0 +1,112 @@
+```{=html}
+<%
+var statusLabel = {
+  'Published': '已发表', 'R&R': '修改重投', 'Writing': '撰写中', 'In progress': '进行中'
+};
+var subtitleMap = {
+  '[Subtitle Placeholder]': '[副标题占位]'
+};
+var catMap = {
+  '[Research Topic 1]': '[研究主题1]', '[Research Topic 2]': '[研究主题2]',
+  'Trade': '贸易', 'Labor': '劳动经济学', 'Housing': '住房',
+  'Consumption': '消费', 'FinTech': '金融科技', 'Development': '发展经济学',
+  'Education': '教育', 'Inequality': '不平等'
+};
+var linkNameMap = {
+  'Replication': '复现代码', 'Slides': '幻灯片'
+};
+var abstractMap = {};
+%>
+<div class="list research">
+    <% items_pub = items.filter(item => item.status == "published") %>
+    <% items_wp = items.filter(item => item.status == "working-papers") %>
+    <% items_wip = items.filter(item => item.status == "work-in-progress") %>
+    <% for (const items of [items_wp, items_pub, items_wip]) { %>
+        <% if (items.length > 0) { %>
+            <% if (items[0].status == "working-papers") { %>
+                <h2>工作论文</h2>
+            <% } else if (items[0].status == "published") { %>
+                <h2>已发表论文</h2>
+            <% } else { %>
+                <h2>进行中的研究</h2>
+            <% } %>
+            <% for (const item of items) { %>
+                <div class="research-entry" <%= metadataAttrs(item) %>>
+                    <div class="body">
+                        <% if (item['pub-status']) { %>
+                            <span class="pub-status status-<%= item['pub-status'].class %>">
+                                <i class="<%= item['pub-status'].icon %>"></i> <%= statusLabel[item['pub-status'].status] || item['pub-status'].status %>
+                            </span>
+                        <% } %>
+                        <p class="title listing-title">
+                            <% if (item['hide-detail']) { %>
+                                <%= item.title %>
+                            <% } else { %>
+                                <a href="<%- item.path %>"><%= item.title %></a>
+                            <% } %>
+                        </p>
+                        <% if (item.subtitle) { %>
+                        <p class="subtitle listing-subtitle">
+                            <%= subtitleMap[item.subtitle] || item.subtitle %>
+                        </p>
+                        <% } %>
+                        <% if (item.authors) { %>
+                            <% coauthors = item.authors.filter(author => author.name != "Zhang Jiaxing") %>
+                            <% n_coauthors = coauthors.length %>
+                            <% if (n_coauthors > 0) { %>
+                            <p class="research-coauthors">
+                                合作者：
+                                <% for (let i = 0; i < coauthors.length; i++) { %>
+                                    <% const author = coauthors[i]; %>
+                                    <% if (author.url) { %>
+                                        <a href="<%- author.url %>"><%= author.name %></a>
+                                    <% } else { %>
+                                        <%= author.name %>
+                                    <% } %>
+                                    <% if (i < coauthors.length - 1) { %>、<% } %>
+                                <% } %>
+                            </p>
+                            <% } %>
+                        <% } %>
+                        <% if (item.categories) { %>
+                            <div class="item-categories listing-categories">
+                                <% for (const category of item.categories) { %>
+                                <div class="item-category listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;">
+                                    <%= catMap[category] || category %>
+                                </div>
+                                <% } %>
+                            </div>
+                        <% } %>
+                        <% if (item['research-abstract']) { %>
+                            <details class="research-abstract">
+                                <summary>摘要</summary>
+                                <p><%= item['research-abstract'] %></p>
+                            </details>
+                        <% } %>
+                        <ul class="research-links">
+                            <% if (item['pub-info'] && item['pub-info'].links) { %>
+                                <% for (const link of item['pub-info'].links) { %>
+                                <li class="research-link">
+                                    <% if (link.local) { %>
+                                    <a href="<%- item.path.substring(0, item.path.lastIndexOf('/')) %>/<%- link.url %>">
+                                    <% } else { %>
+                                    <a href="<%- link.url %>">
+                                    <% } %>
+                                        <i class="<%- link.icon %>"></i> <%= linkNameMap[link.name] || link.name %>
+                                    </a>
+                                </li>
+                                <% } %>
+                            <% } %>
+                        </ul>
+                    </div>
+                    <% if (item.image) { %>
+                        <div class="thumbnail">
+                            <img src="<%= item.image %>" alt="<%= item.title %>" title="<%= item.title %>" />
+                        </div>
+                    <% } %>
+                </div>
+            <% } %>
+        <% } %>
+    <% } %>
+</div>
+```

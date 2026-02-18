@@ -1,0 +1,11 @@
+---
+title: "Software"
+description: "Packages and tools"
+title-block-banner: "#fff"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Language
+---
+
+*Coming soon.*
