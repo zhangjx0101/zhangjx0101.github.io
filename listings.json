@@ -1,0 +1,36 @@
+[
+  {
+    "listing": "/zh/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/trade-policy/index.html",
+      "/research/education-mobility/index.html",
+      "/research/housing-consumption/index.html",
+      "/research/digital-finance/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": []
+  },
+  {
+    "listing": "/zh/research/index.html",
+    "items": [
+      "/research/trade-policy/index.html",
+      "/research/education-mobility/index.html",
+      "/research/housing-consumption/index.html",
+      "/research/digital-finance/index.html"
+    ]
+  },
+  {
+    "listing": "/zh/about/index.html",
+    "items": []
+  }
+]
