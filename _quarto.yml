@@ -45,17 +45,6 @@ website:
             href: /
           - text: "中文 (简体)"
             href: /zh/
-  comments:
-    giscus:
-      repo: zhangjx0101/zhangjx0101.github.io
-      repo-id: "R_kgDORSWGBA"
-      category: General
-      category-id: "DIC_kwDORSWGBM4C21IB"
-      mapping: pathname
-      reactions-enabled: true
-      loading: lazy
-      input-position: top
-      theme: preferred_color_scheme
   page-footer:
     left: |
       <span class="faux-block">{{< fa copyright >}} 2025 Zhang Jiaxing</span>
