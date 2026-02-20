@@ -1,0 +1,94 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css2?family=Fraunces&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Commissioner&display=swap);
+// LXGW WenKai and Noto Serif SC loaded via include-in-header in _quarto.yml
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code&display=swap);
+
+//
+// Color system (dark mode overrides)
+//
+
+$color-main: #7b9ad8 !default;
+
+$body-bg: #1a1a2e !default;
+$body-color: #c9d1d9 !default;
+
+$link-color: $color-main !default;
+$link-decoration: none !default;
+$link-hover-decoration: underline !default;
+
+// Fonts (same as light theme)
+$font-family-zh: "LXGW WenKai" !default;
+$font-family-zh-serif: "Noto Serif SC" !default;
+$font-family-base: "Commissioner", $font-family-zh !default;
+$font-family-sans-serif: $font-family-base !default;
+$font-family-monospace: "Fira Code" !default;
+$headings-font-family: "Fraunces", $font-family-zh-serif !default;
+$headings-font-weight: 600 !default;
+
+$navbar-font-family: $font-family-base, sans-serif !default;
+$toc-font-family: $font-family-base, sans-serif !default;
+$footer-font-family: $font-family-base, sans-serif !default;
+
+// Inline code
+$code-bg: #2d333b !default;
+$code-color: #c9d1d9 !default;
+
+// TOC
+$toc-color: $color-main;
+$toc-font-size: 0.9em;
+
+// Navbar
+$navbar-bg: #16213e !default;
+$navbar-fg: #c9d1d9 !default;
+$navbar-hl: $color-main !default;
+
+// Footer
+$footer-bg: #16213e !default;
+$footer-fg: #8b949e !default;
+
+/*-- scss:rules --*/
+
+// Dark mode adjustments
+.about-banner img {
+    opacity: 0.85;
+}
+
+.research .research-entry .pub-status {
+    &.status-published {
+        color: #3fb950;
+        border-color: #3fb950;
+    }
+    &.status-wp {
+        color: $color-main;
+        border-color: $color-main;
+    }
+    &.status-wip {
+        color: #d29922;
+        border-color: #d29922;
+    }
+}
+
+.research .research-entry .research-coauthors {
+    color: #8b949e;
+}
+
+.research .research-entry .item-category,
+.blog .blog-entry .post-category {
+    color: #8b949e;
+    border-color: #484f58;
+}
+
+.research .research-entry .research-abstract {
+    summary {
+        color: $color-main;
+    }
+    p {
+        color: #c9d1d9;
+    }
+}
+
+.nav-footer {
+    border: 0 !important;
+}

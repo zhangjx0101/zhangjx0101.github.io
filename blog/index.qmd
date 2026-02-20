@@ -8,6 +8,9 @@ listing:
     sort: "date desc"
     template: ../static/html/list-blog.ejs
     categories: true
+    feed:
+      title: "Zhang Jiaxing's Blog"
+      description: "Notes and tips for economic research"
 page-layout: full
 toc-title: Year
 toc-location: right

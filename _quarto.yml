@@ -2,6 +2,10 @@ project:
   type: website
   resources:
     - static/img/**
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!CLAUDE.md"
   preview:
     port: 5556
     browser: true
@@ -18,6 +22,7 @@ website:
   site-url: https://zhangjx.com
   repo-url: https://github.com/zhangjx0101/zhangjx0101.github.io
   open-graph: true
+  google-analytics: "G-XXXXXXXXXX"
   navbar:
     right:
       - text: About
@@ -32,8 +37,6 @@ website:
         file: software/index.qmd
       - text: Talks
         file: talks/index.qmd
-      - text: Teaching
-        file: teaching/index.qmd
       - icon: globe
         text: "English"
         id: lang-switcher
@@ -42,6 +45,17 @@ website:
             href: /
           - text: "中文 (简体)"
             href: /zh/
+  comments:
+    giscus:
+      repo: zhangjx0101/zhangjx0101.github.io
+      repo-id: "R_kgDORSWGBA"
+      category: General
+      category-id: "DIC_kwDORSWGBM4C21IB"
+      mapping: pathname
+      reactions-enabled: true
+      loading: lazy
+      input-position: top
+      theme: preferred_color_scheme
   page-footer:
     left: |
       <span class="faux-block">{{< fa copyright >}} 2025 Zhang Jiaxing</span>
@@ -54,10 +68,20 @@ website:
 format:
   html:
     theme:
-      - static/html/custom.scss
+      light:
+        - cosmo
+        - static/html/custom.scss
+      dark:
+        - darkly
+        - static/html/custom-dark.scss
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-regular.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-bold.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-light.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap">
     include-after-body: static/html/lang-switch.html
 
 bibliography: references.bib
