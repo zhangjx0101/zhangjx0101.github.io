@@ -24,6 +24,7 @@ Bilingual (English / Chinese) academic personal website built with [Quarto](http
 | Templates | EJS (Quarto listing templates) |
 | Fonts | LXGW WenKai, Noto Serif SC, Commissioner, Fraunces |
 | Deployment | GitHub Pages (`gh-pages` branch) |
+| CDN | Cloudflare (free plan) |
 | Domain | Custom domain via CNAME |
 
 ## Project Structure
@@ -69,6 +70,7 @@ For detailed guides, see the [Wiki](https://github.com/zhangjx0101/zhangjx0101.g
 - [macOS Usage Guide](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/daily-usage-guide)
 - [Windows Setup & Usage Guide](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/windows-setup-guide)
 - [Deployment & Custom Domain](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/deployment-guide)
+- [Cloudflare CDN Configuration](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/cloudflare-cdn-guide)
 - [Build Notes & Lessons Learned](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/quarto-website-build-notes)
 
 ## Local Development
