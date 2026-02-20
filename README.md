@@ -67,6 +67,7 @@ Bilingual (English / Chinese) academic personal website built with [Quarto](http
 For detailed guides, see the [Wiki](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki):
 
 - [Installation Troubleshooting](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/installation-troubleshooting)
+- [Windows Claude Code Troubleshooting](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/windows-claude-code-troubleshooting)
 - [macOS Usage Guide](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/daily-usage-guide)
 - [Windows Setup & Usage Guide](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/windows-setup-guide)
 - [Deployment & Custom Domain](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/deployment-guide)
