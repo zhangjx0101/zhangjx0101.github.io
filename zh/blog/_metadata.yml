@@ -5,18 +5,6 @@ execute:
   warning: false
   message: false
 
-comments:
-  giscus:
-    repo: zhangjx0101/zhangjx0101.github.io
-    repo-id: "R_kgDORSWGBA"
-    category: General
-    category-id: "DIC_kwDORSWGBM4C21IB"
-    mapping: pathname
-    reactions-enabled: true
-    loading: lazy
-    input-position: top
-    theme: preferred_color_scheme
-
 format:
   html:
     code-tools: true
