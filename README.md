@@ -61,6 +61,16 @@ Bilingual (English / Chinese) academic personal website built with [Quarto](http
 └── _extensions/                # Quarto extensions
 ```
 
+## Documentation
+
+For detailed guides, see the [Wiki](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki):
+
+- [Installation Troubleshooting](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/installation-troubleshooting)
+- [macOS Usage Guide](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/daily-usage-guide)
+- [Windows Setup & Usage Guide](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/windows-setup-guide)
+- [Deployment & Custom Domain](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/deployment-guide)
+- [Build Notes & Lessons Learned](https://github.com/zhangjx0101/zhangjx0101.github.io/wiki/quarto-website-build-notes)
+
 ## Local Development
 
 ### Prerequisites
