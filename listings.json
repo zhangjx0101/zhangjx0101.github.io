@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/about/index.html",
+    "listing": "/zh/about/index.html",
     "items": []
   },
   {
@@ -8,15 +8,11 @@
     "items": []
   },
   {
-    "listing": "/zh/about/index.html",
+    "listing": "/about/index.html",
     "items": []
   },
   {
-    "listing": "/zh/blog/index.html",
-    "items": []
-  },
-  {
-    "listing": "/zh/research/index.html",
+    "listing": "/research/index.html",
     "items": [
       "/research/trade-policy/index.html",
       "/research/education-mobility/index.html",
@@ -25,7 +21,11 @@
     ]
   },
   {
-    "listing": "/research/index.html",
+    "listing": "/zh/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/zh/research/index.html",
     "items": [
       "/research/trade-policy/index.html",
       "/research/education-mobility/index.html",
