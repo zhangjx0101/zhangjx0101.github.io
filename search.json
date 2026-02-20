@@ -1,10 +1,108 @@
 [
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
     "section": "",
     "text": "Coming soon."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Zhang Jiaxing",
+    "section": "",
+    "text": "I am a PhD student in Economics at University of Economics.\nMy research interests include:\nPh.D. in Economics ∙ University of Economics ∙ Expected [Year]\nB.A. in Economics ∙ [University Name] ∙ [Year]"
+  },
+  {
+    "objectID": "about/index.html#research",
+    "href": "about/index.html#research",
+    "title": "Zhang Jiaxing",
+    "section": "RESEARCH",
+    "text": "RESEARCH\nSee my Research page for working papers and publications."
+  },
+  {
+    "objectID": "about/index.html#blog",
+    "href": "about/index.html#blog",
+    "title": "Zhang Jiaxing",
+    "section": "BLOG",
+    "text": "BLOG\n\n\n    \n\nNo matching items\n\n\nSee All →"
+  },
+  {
+    "objectID": "research/education-mobility/index.html",
+    "href": "research/education-mobility/index.html",
+    "title": "[Paper Title Placeholder 4]",
+    "section": "",
+    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
+  },
+  {
+    "objectID": "research/education-mobility/index.html#abstract",
+    "href": "research/education-mobility/index.html#abstract",
+    "title": "[Paper Title Placeholder 4]",
+    "section": "",
+    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
+  },
+  {
+    "objectID": "research/trade-policy/index.html",
+    "href": "research/trade-policy/index.html",
+    "title": "[Paper Title Placeholder 1]",
+    "section": "",
+    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
+  },
+  {
+    "objectID": "research/trade-policy/index.html#abstract",
+    "href": "research/trade-policy/index.html#abstract",
+    "title": "[Paper Title Placeholder 1]",
+    "section": "",
+    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
+  },
+  {
+    "objectID": "research/trade-policy/index.html#bibtex-citation",
+    "href": "research/trade-policy/index.html#bibtex-citation",
+    "title": "[Paper Title Placeholder 1]",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{zhang2025placeholder1,\n  title = {[Paper Title Placeholder 1]},\n  author = {Zhang, Jiaxing and [Coauthor A] and [Coauthor B]},\n  journal = {[Journal Name]},\n  year = {2025}\n}"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "blog/index.html#section",
+    "href": "blog/index.html#section",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "zh/talks/index.html",
+    "href": "zh/talks/index.html",
+    "title": "演讲",
+    "section": "",
+    "text": "即将更新，敬请期待。"
+  },
+  {
+    "objectID": "zh/about/index.html",
+    "href": "zh/about/index.html",
+    "title": "Zhang Jiaxing",
+    "section": "",
+    "text": "我是 University of Economics 的经济学博士生。\n我的研究兴趣包括：\n经济学博士 ∙ University of Economics ∙ 预计[年份]毕业\n经济学学士 ∙ [大学名称] ∙ [年份]"
+  },
+  {
+    "objectID": "zh/about/index.html#研究",
+    "href": "zh/about/index.html#研究",
+    "title": "Zhang Jiaxing",
+    "section": "研究",
+    "text": "研究\n请访问 研究页面 查看工作论文与已发表论文。"
+  },
+  {
+    "objectID": "zh/about/index.html#博客",
+    "href": "zh/about/index.html#博客",
+    "title": "Zhang Jiaxing",
+    "section": "博客",
+    "text": "博客\n\n\n    \n\n无匹配项\n\n\n查看全部 →"
   },
   {
     "objectID": "zh/blog/index.html",
@@ -35,27 +133,6 @@
     "text": "教育背景\n 经济学博士 | University of Economics | 预计[年份]毕业\n 经济学学士 | [大学名称] | [年份]"
   },
   {
-    "objectID": "zh/talks/index.html",
-    "href": "zh/talks/index.html",
-    "title": "演讲",
-    "section": "",
-    "text": "即将更新，敬请期待。"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "blog/index.html#section",
-    "href": "blog/index.html#section",
-    "title": "Blog",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zhang Jiaxing",
@@ -70,25 +147,32 @@
     "text": "Education\n Ph.D. in Economics | University of Economics | Expected [Year]\n B.A. in Economics | [University Name] | [Year]"
   },
   {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Talks",
+    "objectID": "zh/software/index.html",
+    "href": "zh/software/index.html",
+    "title": "软件",
+    "section": "",
+    "text": "即将更新，敬请期待。"
+  },
+  {
+    "objectID": "zh/research/index.html",
+    "href": "zh/research/index.html",
+    "title": "研究",
+    "section": "",
+    "text": "工作论文\n            \n            \n                \n                    \n                        \n                            \n                                 修改重投\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 2]\n                            \n                        \n                        \n                        \n                            [副标题占位]\n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor C]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题1]\n                                \n                                \n                                \n                                    住房\n                                \n                                \n                                \n                                    消费\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         SSRN\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         幻灯片\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n                \n                    \n                        \n                            \n                                 撰写中\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 3]\n                            \n                        \n                        \n                        \n                            [副标题占位]\n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor D]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题2]\n                                \n                                \n                                \n                                    金融科技\n                                \n                                \n                                \n                                    发展经济学\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         幻灯片\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                已发表论文\n            \n            \n                \n                    \n                        \n                            \n                                 已发表\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 1]\n                            \n                        \n                        \n                        \n                            [副标题占位]\n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor A]\n                                    \n                                    、\n                                \n                                    \n                                    \n                                        [Coauthor B]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题1]\n                                \n                                \n                                \n                                    贸易\n                                \n                                \n                                \n                                    劳动经济学\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         DOI\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         复现代码\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                进行中的研究\n            \n            \n                \n                    \n                        \n                            \n                                 进行中\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 4]\n                            \n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor E]\n                                    \n                                    、\n                                \n                                    \n                                    \n                                        [Coauthor F]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题2]\n                                \n                                \n                                \n                                    教育\n                                \n                                \n                                \n                                    不平等\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n\n无匹配项"
+  },
+  {
+    "objectID": "zh/teaching/index.html",
+    "href": "zh/teaching/index.html",
+    "title": "教学",
+    "section": "",
+    "text": "即将更新，敬请期待。"
+  },
+  {
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "Software",
     "section": "",
     "text": "Coming soon."
-  },
-  {
-    "objectID": "research/education-mobility/index.html",
-    "href": "research/education-mobility/index.html",
-    "title": "[Paper Title Placeholder 4]",
-    "section": "",
-    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
-  },
-  {
-    "objectID": "research/education-mobility/index.html#abstract",
-    "href": "research/education-mobility/index.html#abstract",
-    "title": "[Paper Title Placeholder 4]",
-    "section": "",
-    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
   },
   {
     "objectID": "research/digital-finance/index.html",
@@ -112,6 +196,13 @@
     "text": "BibTeX citation\n@unpublished{zhang2024placeholder3,\n  title = {[Paper Title Placeholder 3]},\n  author = {Zhang, Jiaxing and [Coauthor D]},\n  year = {2024},\n  note = {Working paper}\n}"
   },
   {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Working papers\n            \n            \n                \n                    \n                        \n                            \n                                 R&R\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 2]\n                            \n                        \n                        \n                            [Subtitle Placeholder]\n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor C]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 1]\n                                \n                                \n                                \n                                    Housing\n                                \n                                \n                                \n                                    Consumption\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         SSRN\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         Slides\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n                \n                    \n                        \n                            \n                                 Writing\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 3]\n                            \n                        \n                        \n                            [Subtitle Placeholder]\n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor D]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 2]\n                                \n                                \n                                \n                                    FinTech\n                                \n                                \n                                \n                                    Development\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         Slides\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                Publications\n            \n            \n                \n                    \n                        \n                            \n                                 Published\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 1]\n                            \n                        \n                        \n                            [Subtitle Placeholder]\n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor A]\n                                    \n                                    \n                                        \n                                            and\n                                        \n                                    \n                                \n                                    \n                                        [Coauthor B]\n                                    \n                                    \n                                        \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 1]\n                                \n                                \n                                \n                                    Trade\n                                \n                                \n                                \n                                    Labor\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         DOI\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         Replication\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                Work in progress\n            \n            \n                \n                    \n                        \n                            \n                                 In progress\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 4]\n                            \n                        \n                        \n                            \n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor E]\n                                    \n                                    \n                                        \n                                            and\n                                        \n                                    \n                                \n                                    \n                                        [Coauthor F]\n                                    \n                                    \n                                        \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 2]\n                                \n                                \n                                \n                                    Education\n                                \n                                \n                                \n                                    Inequality\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n\nNo matching items"
+  },
+  {
     "objectID": "research/housing-consumption/index.html",
     "href": "research/housing-consumption/index.html",
     "title": "[Paper Title Placeholder 2]",
@@ -133,101 +224,10 @@
     "text": "BibTeX citation\n@unpublished{zhang2025placeholder2,\n  title = {[Paper Title Placeholder 2]},\n  author = {Zhang, Jiaxing and [Coauthor C]},\n  year = {2025},\n  note = {Working paper}\n}"
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Working papers\n            \n            \n                \n                    \n                        \n                            \n                                 R&R\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 2]\n                            \n                        \n                        \n                            [Subtitle Placeholder]\n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor C]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 1]\n                                \n                                \n                                \n                                    Housing\n                                \n                                \n                                \n                                    Consumption\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         SSRN\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         Slides\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n                \n                    \n                        \n                            \n                                 Writing\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 3]\n                            \n                        \n                        \n                            [Subtitle Placeholder]\n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor D]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 2]\n                                \n                                \n                                \n                                    FinTech\n                                \n                                \n                                \n                                    Development\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         Slides\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                Publications\n            \n            \n                \n                    \n                        \n                            \n                                 Published\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 1]\n                            \n                        \n                        \n                            [Subtitle Placeholder]\n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor A]\n                                    \n                                    \n                                        \n                                            and\n                                        \n                                    \n                                \n                                    \n                                        [Coauthor B]\n                                    \n                                    \n                                        \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 1]\n                                \n                                \n                                \n                                    Trade\n                                \n                                \n                                \n                                    Labor\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         DOI\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         Replication\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                Work in progress\n            \n            \n                \n                    \n                        \n                            \n                                 In progress\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 4]\n                            \n                        \n                        \n                            \n                        \n                        \n                            \n                            \n                            \n                            \n                                with\n                                \n                                    \n                                        [Coauthor E]\n                                    \n                                    \n                                        \n                                            and\n                                        \n                                    \n                                \n                                    \n                                        [Coauthor F]\n                                    \n                                    \n                                        \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [Research Topic 2]\n                                \n                                \n                                \n                                    Education\n                                \n                                \n                                \n                                    Inequality\n                                \n                                \n                            \n                        \n                        \n                            \n                                Abstract\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "research/trade-policy/index.html",
-    "href": "research/trade-policy/index.html",
-    "title": "[Paper Title Placeholder 1]",
-    "section": "",
-    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
-  },
-  {
-    "objectID": "research/trade-policy/index.html#abstract",
-    "href": "research/trade-policy/index.html#abstract",
-    "title": "[Paper Title Placeholder 1]",
-    "section": "",
-    "text": "[This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]"
-  },
-  {
-    "objectID": "research/trade-policy/index.html#bibtex-citation",
-    "href": "research/trade-policy/index.html#bibtex-citation",
-    "title": "[Paper Title Placeholder 1]",
-    "section": "BibTeX citation",
-    "text": "BibTeX citation\n@article{zhang2025placeholder1,\n  title = {[Paper Title Placeholder 1]},\n  author = {Zhang, Jiaxing and [Coauthor A] and [Coauthor B]},\n  journal = {[Journal Name]},\n  year = {2025}\n}"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Zhang Jiaxing",
-    "section": "",
-    "text": "I am a PhD student in Economics at University of Economics.\nMy research interests include:\nPh.D. in Economics ∙ University of Economics ∙ Expected [Year]\nB.A. in Economics ∙ [University Name] ∙ [Year]"
-  },
-  {
-    "objectID": "about/index.html#research",
-    "href": "about/index.html#research",
-    "title": "Zhang Jiaxing",
-    "section": "RESEARCH",
-    "text": "RESEARCH\nSee my Research page for working papers and publications."
-  },
-  {
-    "objectID": "about/index.html#blog",
-    "href": "about/index.html#blog",
-    "title": "Zhang Jiaxing",
-    "section": "BLOG",
-    "text": "BLOG\n\n\n    \n\nNo matching items\n\n\nSee All →"
-  },
-  {
-    "objectID": "software/index.html",
-    "href": "software/index.html",
-    "title": "Software",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
     "text": "Coming soon."
-  },
-  {
-    "objectID": "zh/research/index.html",
-    "href": "zh/research/index.html",
-    "title": "研究",
-    "section": "",
-    "text": "工作论文\n            \n            \n                \n                    \n                        \n                            \n                                 修改重投\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 2]\n                            \n                        \n                        \n                        \n                            [副标题占位]\n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor C]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题1]\n                                \n                                \n                                \n                                    住房\n                                \n                                \n                                \n                                    消费\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         SSRN\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         幻灯片\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n                \n                    \n                        \n                            \n                                 撰写中\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 3]\n                            \n                        \n                        \n                        \n                            [副标题占位]\n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor D]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题2]\n                                \n                                \n                                \n                                    金融科技\n                                \n                                \n                                \n                                    发展经济学\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         幻灯片\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                已发表论文\n            \n            \n                \n                    \n                        \n                            \n                                 已发表\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 1]\n                            \n                        \n                        \n                        \n                            [副标题占位]\n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor A]\n                                    \n                                    、\n                                \n                                    \n                                    \n                                        [Coauthor B]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题1]\n                                \n                                \n                                \n                                    贸易\n                                \n                                \n                                \n                                    劳动经济学\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                    \n                                    \n                                         PDF\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         DOI\n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                         复现代码\n                                    \n                                \n                                \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n        \n            \n                进行中的研究\n            \n            \n                \n                    \n                        \n                            \n                                 进行中\n                            \n                        \n                        \n                            \n                                [Paper Title Placeholder 4]\n                            \n                        \n                        \n                        \n                            \n                            \n                            \n                            \n                                合作者：\n                                \n                                    \n                                    \n                                        [Coauthor E]\n                                    \n                                    、\n                                \n                                    \n                                    \n                                        [Coauthor F]\n                                    \n                                    \n                                \n                            \n                            \n                        \n                        \n                            \n                                \n                                \n                                    [研究主题2]\n                                \n                                \n                                \n                                    教育\n                                \n                                \n                                \n                                    不平等\n                                \n                                \n                            \n                        \n                        \n                            \n                                摘要\n                                [This is a placeholder abstract. Replace with your actual research abstract when ready. The abstract should summarize the research question, methodology, and key findings of your paper.]\n                            \n                        \n                        \n                            \n                        \n                    \n                    \n                        \n                            \n                        \n                    \n                \n            \n        \n    \n\n无匹配项"
-  },
-  {
-    "objectID": "zh/about/index.html",
-    "href": "zh/about/index.html",
-    "title": "Zhang Jiaxing",
-    "section": "",
-    "text": "我是 University of Economics 的经济学博士生。\n我的研究兴趣包括：\n经济学博士 ∙ University of Economics ∙ 预计[年份]毕业\n经济学学士 ∙ [大学名称] ∙ [年份]"
-  },
-  {
-    "objectID": "zh/about/index.html#研究",
-    "href": "zh/about/index.html#研究",
-    "title": "Zhang Jiaxing",
-    "section": "研究",
-    "text": "研究\n请访问 研究页面 查看工作论文与已发表论文。"
-  },
-  {
-    "objectID": "zh/about/index.html#博客",
-    "href": "zh/about/index.html#博客",
-    "title": "Zhang Jiaxing",
-    "section": "博客",
-    "text": "博客\n\n\n    \n\n无匹配项\n\n\n查看全部 →"
-  },
-  {
-    "objectID": "zh/software/index.html",
-    "href": "zh/software/index.html",
-    "title": "软件",
-    "section": "",
-    "text": "即将更新，敬请期待。"
-  },
-  {
-    "objectID": "zh/teaching/index.html",
-    "href": "zh/teaching/index.html",
-    "title": "教学",
-    "section": "",
-    "text": "即将更新，敬请期待。"
   }
 ]
